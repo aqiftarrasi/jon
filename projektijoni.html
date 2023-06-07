@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulari i Regjistrimit të Studentëve</title>
+</head>
+<body style="background-image: -webkit-repeating-linear-gradient();">
+    <h1>Formulari i Regjistrimit të Studentëve</h1>
+    <form action="/regjistro" method="post">
+        <!-- Të dhënat personale të studentit -->
+        <h2>Të Dhënat Personale</h2>
+        <label for="emri">Emri:</label>
+        <input type="text" id="emri" name="emri" required><br><br>
+        
+        <label for="mbiemri">Mbiemri:</label>
+        <input type="text" id="mbiemri" name="mbiemri" required><br><br>
+        
+        <label for="datelindja">Datëlindja:</label>
+        <input type="date" id="datelindja" name="datelindja" required><br><br>
+        
+        <label for="adresa">Adresa:</label>
+        <input type="text" id="adresa" name="adresa" required><br><br>
+        
+        <!-- Informacioni akademik -->
+        <h2>Informacioni Akademik</h2>
+        <label for="universiteti">Universiteti:</label>
+        <input type="text" id="universiteti" name="universiteti" required><br><br>
+        
+        <label for="fakulteti">Fakulteti:</label>
+        <input type="text" id="fakulteti" name="fakulteti" required><br><br>
+        
+        <label for="programi">Programi Studimor:</label>
+        <input type="text" id="programi" name="programi" required><br><br>
+        
+        <label for="viti">Viti Akademik:</label>
+        <input type="text" id="viti" name="viti" required><br><br>
+        
+        <!-- Të dhënat për prindërit -->
+        <h2>Të Dhënat për Prindërit</h2>
+        <label for="emri_prindit">Emri i Prindit:</label>
+        <input type="text" id="emri_prindit" name="emri_prindit" required><br><br>
+        
+        <label for="mbiemri_prindit">Mbiemri i Prindit:</label>
+        <input type="text" id="mbiemri_prindit" name="mbiemri_prindit" required><br><br>
+        
+        <label for="email_prindi">Email i Prindit:</label>
+        <input type="email" id="email_prindi" name="email_prindi" required><br><br>
+        
+        <label for="telefoni_prindi">Telefoni i Prindit:</label>
+        <input type="tel" id="telefoni_prindi" name="telefoni_prindi" required><br><br>
+        
+        <!-- Interesat studimore -->
+        <h2>Interesat Studimore</h2>
+        <label for="interesat">Interesat tuaja studimore:</label><br>
+        <input type="checkbox" id="interes1" name="interesat" value="Matematikë">
+        <label for="interes1">Matematikë</label><br>
+        <input type="checkbox" id="interes2" name="interesat" value="Shkencë Kompjuterike">
+        <label for="interes2">Shkencë Kompjuterike</label><br>
+        <input type="checkbox" id="interes3" name="interesat" value="Histori">
+        <label for="interes3">Histori</label><br>
+        <!-- Shtoni interesat studimore të tjera sipas nevojës -->
+        
+        <br><br>
+        <input type="submit" value="Regjistrohu">
+    </form>
+</body>
+</html>
